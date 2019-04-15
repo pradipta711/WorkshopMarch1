@@ -62,12 +62,4 @@ print("corpora :", lemmatizer.lemmatize("corpora"))
 print("better :", lemmatizer.lemmatize("better", pos ="a")) 
 
 
-##########################Tokenize text from text document##################################################################
-print("~~~~~~~~~~~~~~~~~~~~~~~~~~Tokenizing from textfile~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-
-from nltk.tokenize import word_tokenize
-
-with open ('abc.txt') as fin:      #create a new abc.text in your current folder or copy if you have another text file
-    for line in fin:
-        print(word_tokenize(line))
         
